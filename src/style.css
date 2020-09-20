@@ -1,0 +1,78 @@
+body{
+    background-image: radial-gradient(hotpink,blue);
+}
+.centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:600px;
+    flex-direction: column;
+}
+
+input[type=text] {
+    width: 250px;
+ }
+
+.form-center{
+    width: 400px;
+    height:200px;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    font-size:25px;
+}
+
+.align-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.login-space{
+    margin-bottom:15px;
+}
+
+.error-message{
+    color:red;
+    font-size: 15px;
+    padding-top:10px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.logout{
+    display: flex;
+    box-shadow: 0 0 1px 1px #ccc;
+    justify-content: flex-end;
+    background-color:lightblue;
+
+}
+
+.dashboard-center{
+    display: flex;
+    max-width:1000px;
+    margin:0 auto;
+    flex-direction: column;
+}
+
+.innercontent-align{
+    display: flex;
+    flex-direction: column;
+}
+
+.align-content{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px 0 10px;
+    color:#fff
+}
+
+
